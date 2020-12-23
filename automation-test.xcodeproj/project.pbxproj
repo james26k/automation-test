@@ -18,6 +18,8 @@
 		5548B1FC25934AA3004F73DD /* automation_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5548B1FB25934AA3004F73DD /* automation_testUITests.swift */; };
 		5574467B259355AF00FEA536 /* StringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5574467A259355AF00FEA536 /* StringTests.swift */; };
 		5574469D2593615800FEA536 /* ArrayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5574469C2593615800FEA536 /* ArrayTests.swift */; };
+		557446A2259365AC00FEA536 /* QuickCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557446A1259365AC00FEA536 /* QuickCalculatorTests.swift */; };
+		557446AA2593677F00FEA536 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557446A92593677F00FEA536 /* Calculator.swift */; };
 		9FBC3E068D783979FD11AE45 /* Pods_automation_testTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26E7209AFCB359685F8548C2 /* Pods_automation_testTests.framework */; };
 		AA46C6F0C329FF8320EB3EA4 /* Pods_automation_test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E03B907D9D1C5E9F69430AAE /* Pods_automation_test.framework */; };
 /* End PBXBuildFile section */
@@ -59,6 +61,8 @@
 		5548B1FD25934AA3004F73DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5574467A259355AF00FEA536 /* StringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringTests.swift; sourceTree = "<group>"; };
 		5574469C2593615800FEA536 /* ArrayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayTests.swift; sourceTree = "<group>"; };
+		557446A1259365AC00FEA536 /* QuickCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickCalculatorTests.swift; sourceTree = "<group>"; };
+		557446A92593677F00FEA536 /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
 		749C92515C7793094E86F277 /* Pods-automation-testTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-automation-testTests.debug.xcconfig"; path = "Target Support Files/Pods-automation-testTests/Pods-automation-testTests.debug.xcconfig"; sourceTree = "<group>"; };
 		969B0092F8446B044D9E21D8 /* Pods-automation-test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-automation-test.debug.xcconfig"; path = "Target Support Files/Pods-automation-test/Pods-automation-test.debug.xcconfig"; sourceTree = "<group>"; };
 		D3E6303111AAFFCC76C2C0DB /* Pods_automation_test_automation_testUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_automation_test_automation_testUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -127,6 +131,7 @@
 				5548B1E225934AA3004F73DD /* Assets.xcassets */,
 				5548B1E425934AA3004F73DD /* LaunchScreen.storyboard */,
 				5548B1E725934AA3004F73DD /* Info.plist */,
+				557446A92593677F00FEA536 /* Calculator.swift */,
 			);
 			path = "automation-test";
 			sourceTree = "<group>";
@@ -138,6 +143,7 @@
 				5548B1F225934AA3004F73DD /* Info.plist */,
 				5574467A259355AF00FEA536 /* StringTests.swift */,
 				5574469C2593615800FEA536 /* ArrayTests.swift */,
+				557446A1259365AC00FEA536 /* QuickCalculatorTests.swift */,
 			);
 			path = "automation-testTests";
 			sourceTree = "<group>";
@@ -395,6 +401,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5548B1DE25934A97004F73DD /* ViewController.swift in Sources */,
+				557446AA2593677F00FEA536 /* Calculator.swift in Sources */,
 				5548B1DA25934A97004F73DD /* AppDelegate.swift in Sources */,
 				5548B1DC25934A97004F73DD /* SceneDelegate.swift in Sources */,
 			);
@@ -407,6 +414,7 @@
 				5574469D2593615800FEA536 /* ArrayTests.swift in Sources */,
 				5574467B259355AF00FEA536 /* StringTests.swift in Sources */,
 				5548B1F125934AA3004F73DD /* automation_testTests.swift in Sources */,
+				557446A2259365AC00FEA536 /* QuickCalculatorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
